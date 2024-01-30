@@ -1,4 +1,8 @@
-### Hi there 👋
+### Hello! :)
+This dictionary is dedicated to recording fandom terms and vocabulary.
+Any definitions have been created by me, compiled from fandom members, or taken from official dictionaries.
+Entries are marked with appropriate markers indicating additional information about the entry (such as "disputed definition" or "coined term").
+If you'd like to submit an entry to be added to the dictionary, email the term, definition, and examples of its usage (with links if possible) to redsfandomdictionary@gmail.com. By emailing me, you are allowing me to use your words in a public domain work, and you will have no copyright over them.
 
 <!--
 **RedsFandomDictionary/RedsFandomDictionary** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
