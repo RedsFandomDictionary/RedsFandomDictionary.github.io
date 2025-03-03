@@ -1,5 +1,8 @@
 body {
   background: rgb(250, 200, 0);
   color: black;
-  margin: 20px;
+  margin: 5%;
+}
+li{
+  margin-bottom: 10px;
 }
