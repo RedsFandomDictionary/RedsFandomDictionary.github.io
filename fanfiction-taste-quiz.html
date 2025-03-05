@@ -8,36 +8,37 @@
   </head>
   <body>
     <h1>How Fucked Up Is Your Fanfiction Taste? (Pain Edition)</h1>
-    <form id="fanfiction-quiz" method="POST">
+    <div id="questions">
       <p>Pick all the tropes you have/would read.</p>
+      <p id="subcaption"><i>"Whump", if you don't know, is the infliction of suffering or pain on a fictional character.</i></p>
       <ol>
         <li><label for="q1"><input id="q1" name="angst" type="checkbox" value= /> Angst</label></li>
-        <li><label for="q2"><input id="q2" name="" type="checkbox" value= /> </label></li>
+        <li><label for="q2"><input id="q2" name="" type="checkbox" value= /> Crying Blorbo</label></li>
         <li><label for="q3"><input id="q3" name="" type="checkbox" value= /> Addiction/Substance Abuse</label></li>
         <li><label for="q4"><input id="q4" name="" type="checkbox" value= /> Broken Bones/Sprains</label></li>
         <li><label for="q5"><input id="q5" name="" type="checkbox" value= /> Whump</label></li> <!-- 5 -->
         
-        <li><label for="q6"><input id="q6" name="" type="checkbox" value= /> </label></li>
+        <li><label for="q6"><input id="q6" name="" type="checkbox" value= /> Getting Beat Up</label></li>
         <li><label for="q7"><input id="q7" name="" type="checkbox" value= /> Hurt/Comfort</label></li>
-        <li><label for="q8"><input id="q8" name="" type="checkbox" value= /> </label></li>
+        <li><label for="q8"><input id="q8" name="" type="checkbox" value= /> Orphan Sadness</label></li>
         <li><label for="q9"><input id="q9" name="" type="checkbox" value= /> Temporary Character Death</label></li>
-        <li><label for="q10"><input id="q10" name="" type="checkbox" value= /> Character A is betrayed by someone they trusted</label></li> <!-- 10 -->
+        <li><label for="q10"><input id="q10" name="" type="checkbox" value= /> Blorbo is betrayed by someone they trusted</label></li> <!-- 10 -->
         
-        <li><label for="q11"><input id="q11" name="" type="checkbox" value= /> Panic Attacks</label></li>
+        <li><label for="q11"><input id="q11" name="" type="checkbox" value= /> Blorbo betrays someone they trusted</label></li>
         <li><label for="q12"><input id="q12" name="" type="checkbox" value= /> Conditioning</label></li>
-        <li><label for="q13"><input id="q13" name="" type="checkbox" value= /> </label></li>
+        <li><label for="q13"><input id="q13" name="" type="checkbox" value= /> Panic Attacks</label></li>
         <li><label for="q14"><input id="q14" name="" type="checkbox" value= /> Forced to Hurt Others</label></li>
-        <li><label for="q15"><input id="q15" name="" type="checkbox" value= /> </label></li> <!-- 15 -->
+        <li><label for="q15"><input id="q15" name="" type="checkbox" value= /> Sickfic</label></li> <!-- 15 -->
         
-        <li><label for="q16"><input id="q16" name="" type="checkbox" value= /> Sickfic</label></li>
-        <li><label for="q17"><input id="q17" name="" type="checkbox" value= /> Put On Display</label></li>
-        <li><label for="q18"><input id="q18" name="" type="checkbox" value= /> </label></li>
-        <li><label for="q19"><input id="q19" name="" type="checkbox" value= /> Hurt/No Comfort</label></li>
-        <li><label for="q20"><input id="q20" name="" type="checkbox" value= /> </label></li> <!-- 20 -->
+        <li><label for="q16"><input id="q16" name="" type="checkbox" value= /> Put On Display</label></li>
+        <li><label for="q17"><input id="q17" name="" type="checkbox" value= /> Hurt/No Comfort</label></li>
+        <li><label for="q18"><input id="q18" name="" type="checkbox" value= /> Physical Pain</label></li>
+        <li><label for="q19"><input id="q19" name="" type="checkbox" value= /> Emotional Pain</label></li>
+        <li><label for="q20"><input id="q20" name="" type="checkbox" value= /> Manhandled/Thrown Around</label></li> <!-- 20 -->
         
-        <li><label for="q21"><input id="q21" name="" type="checkbox" value= /> </label></li>
+        <li><label for="q21"><input id="q21" name="" type="checkbox" value= /> Hiding Injuries</label></li>
         <li><label for="q22"><input id="q22" name="" type="checkbox" value= /> Kidnapped</label></li>
-        <li><label for="q23"><input id="q23" name="" type="checkbox" value= /> </label></li>
+        <li><label for="q23"><input id="q23" name="" type="checkbox" value= /> Scars</label></li>
         <li><label for="q24"><input id="q24" name="" type="checkbox" value= /> Character Death (permanent)</label></li>
         <li><label for="q25"><input id="q25" name="" type="checkbox" value= /> Dismemberment</label></li> <!-- 25 -->
         
@@ -49,17 +50,17 @@
 
         <li><label for="q31"><input id="q31" name="" type="checkbox" value= /> Skeevy/Sexual Comments or Threats</label></li>
         <li><label for="q32"><input id="q32" name="" type="checkbox" value= /> Vivisection</label></li>
-        <li><label for="q33"><input id="q33" name="" type="checkbox" value= /> </label></li>
+        <li><label for="q33"><input id="q33" name="" type="checkbox" value= /> Disease/Serious Illness</label></li>
         <li><label for="q34"><input id="q34" name="" type="checkbox" value= /> Sleep Deprivation</label></li>
         <li><label for="q35"><input id="q35" name="" type="checkbox" value= /> PTSD</label></li> <!-- 35 -->
 
         <li><label for="q36"><input id="q36" name="" type="checkbox" value= /> Restrained/Tied Up</label></li>
         <li><label for="q37"><input id="q37" name="" type="checkbox" value= /> Nightmares and Night Terrors</label></li>
-        <li><label for="q38"><input id="q38" name="" type="checkbox" value= /> </label></li>
+        <li><label for="q38"><input id="q38" name="" type="checkbox" value= /> "What happened?"/"Who did this to you?"</label></li>
         <li><label for="q39"><input id="q39" name="" type="checkbox" value= /> Dead Dove Do Not Eat</label></li>
         <li><label for="q40"><input id="q40" name="" type="checkbox" value= /> Dissociation</label></li> <!-- 40 -->
 
-        <li><label for="q41"><input id="q41" name="" type="checkbox" value= /> </label></li>
+        <li><label for="q41"><input id="q41" name="" type="checkbox" value= /> Anaphylaxis/Allergic Reaction</label></li>
         <li><label for="q42"><input id="q42" name="" type="checkbox" value=2 /> Nonconsensual Touch</label></li>
         <li><label for="q43"><input id="q43" name="" type="checkbox" value= /> </label></li>
         <li><label for="q44"><input id="q44" name="" type="checkbox" value=3 /> Dubcon/Noncon</label></li>
@@ -78,10 +79,10 @@
         <li><label for="q55"><input id="q55" name="" type="checkbox" value=/> </label></li> <!-- 55 -->
 
         <li><label for="q56"><input id="q56" name="" type="checkbox" value=/> Self-Administered First Aid</label></li>
-        <li><label for="q57"><input id="q57" name="" type="checkbox" value=/> </label></li>
+        <li><label for="q57"><input id="q57" name="" type="checkbox" value=/> Hospitalization</label></li>
         <li><label for="q58"><input id="q58" name="" type="checkbox" value=/> Emotional Breakdown</label></li>
-        <li><label for="q59"><input id="q59" name="" type="checkbox" value=/> </label></li>
-        <li><label for="q60"><input id="q60" name="" type="checkbox" value=/> Betrayed</label></li> <!-- 60 -->
+        <li><label for="q59"><input id="q59" name="" type="checkbox" value=/> Obligatory appendicitis fic</label></li>
+        <li><label for="q60"><input id="q60" name="" type="checkbox" value=/> Conditional Freedoms</label></li> <!-- 60 -->
 
         <li><label for="q61"><input id="q61" name="" type="checkbox" value=/> </label></li>
         <li><label for="q62"><input id="q62" name="" type="checkbox" value=/> Blackmailed</label></li>
@@ -127,18 +128,18 @@
         
         <li><label for="q96"><input id="q96" name="" type="checkbox" value=/> Touch-Starved</label></li>
         <li><label for="q97"><input id="q97" name="" type="checkbox" value=/> Flinching</label></li>
-        <li><label for="q98"><input id="q98" name="" type="checkbox" value=/> </label></li>
+        <li><label for="q98"><input id="q98" name="" type="checkbox" value=/> "[Blorbo] Needs a Hug" tag</label></li>
         <li><label for="q99"><input id="q99" name="" type="checkbox" value=/> </label></li>
         <li><label for="q100"><input id="q100" name="" type="checkbox" value=/> </label></li> <!-- 100 -->
         
-        <li><label for="q101"><input id="q101" name="" type="checkbox" value=/> </label></li>
+        <li><label for="q101"><input id="q101" name="" type="checkbox" value=/> Recovery/Aftermath</label></li>
         <li><label for="q102"><input id="q102" name="" type="checkbox" value=/> </label></li>
         <li><label for="q103"><input id="q103" name="" type="checkbox" value=/> </label></li>
         <li><label for="q104"><input id="q104" name="" type="checkbox" value=/> </label></li>
         <li><label for="q105"><input id="q105" name="" type="checkbox" value=/> </label></li> <!-- 105 -->
         
         <li><label for="q106"><input id="q106" name="" type="checkbox" value=/> </label></li>
-        <li><label for="q107"><input id="q107" name="" type="checkbox" value=/> </label></li>
+        <li><label for="q107"><input id="q107" name="" type="checkbox" value=/> The person Blorbo cares about loses their trust in Blorbo</label></li>
         <li><label for="q108"><input id="q108" name="" type="checkbox" value=/> </label></li>
         <li><label for="q109"><input id="q109" name="" type="checkbox" value=/> </label></li>
         <li><label for="q110"><input id="q110" name="" type="checkbox" value=/> </label></li> <!-- 110 -->
@@ -159,16 +160,16 @@
         <li><label for="q122"><input id="q122" name="" type="checkbox" value=/> Heartbreak</label></li>
         <li><label for="q123"><input id="q123" name="" type="checkbox" value=/> </label></li>
         <li><label for="q124"><input id="q124" name="" type="checkbox" value=/> </label></li>
-        <li><label for="q125"><input id="q125" name="" type="checkbox" value=/> </label></li> <!-- 125 -->
+        <li><label for="q125"><input id="q125" name="" type="checkbox" value=/> Stress Positions</label></li> <!-- 125 -->
         
         <li><label for="q126"><input id="q126" name="" type="checkbox" value=/> Self-Esteem Issues</label></li>
         <li><label for="q127"><input id="q127" name="" type="checkbox" value=/> Blindfolds</label></li>
         <li><label for="q128"><input id="q128" name="" type="checkbox" value=/> Trust Issues</label></li>
         <li><label for="q129"><input id="q129" name="" type="checkbox" value=/> Gags</label></li>
-        <li><label for="q130"><input id="q130" name="" type="checkbox" value=/> Stress Positions</label></li> <!-- 130 -->
+        <li><label for="q130"><input id="q130" name="" type="checkbox" value=/> You've read whump fics for fandoms you're not in</label></li> <!-- 130 -->
         
-        <li><label for="q131"><input id="q131" name="" type="checkbox" value=/> AU that makes them suffer so much more <3</label></li>
-        <li><label for="q132"><input id="q132" name="" type="checkbox" value=/> "Canon-typical violence" is a must</label></li>
+        <li><label for="q131"><input id="q131" name="" type="checkbox" value=/> AU/Headcanons that makes them suffer so much more <3</label></li>
+        <li><label for="q132"><input id="q132" name="" type="checkbox" value=/> "Canon-Typical Violence" is a must</label></li>
         <li><label for="q133"><input id="q133" name="" type="checkbox" value=/> Your first fanfic search in a fandom is for the whump fics</label></li>
         <li><label for="q134"><input id="q134" name="" type="checkbox" value=/> You read more angst than fluff</label></li>
         <li><label for="q135"><input id="q135" name="" type="checkbox" value=/> You feel giddy or excited when your blorbo suffers</label></li> <!-- 135 -->
@@ -179,8 +180,6 @@
         <li><label for="q139"><input id="q139" name="" type="checkbox" value=/> Found family is a beautiful drug</label></li>
         <li><label for="q140"><input id="q140" name="" type="checkbox" value=/> Blorbos getting hurt gives you life</label></li> <!-- 140 -->
       </ol>
-      
-
-    </form>
+      </div>
   </body>
 </html>
