@@ -7,7 +7,7 @@ resultsBtn.addEventListener("click", updateScoreText(getScore()));
 function updateScoreText(score){
 resultsText.textContent = `You've scored ${score} out of !`
   
-  if (score > 5){
+  /*if (score > 5){
   } else if (score > 4){
     
   } else if (score > 3){
@@ -16,7 +16,7 @@ resultsText.textContent = `You've scored ${score} out of !`
     
   } else{
     
-  }
+  }*/
       
     
 }
@@ -24,8 +24,9 @@ resultsText.textContent = `You've scored ${score} out of !`
 
 function getScore(){
   let score = 0;
-  for (i=0; i < selectedTropes.length; i++){
+  score += 5;
+  /*for (i=0; i < selectedTropes.length; i++){
   score += selectedTropes[i].value; 
-  }
+  }*/
   return score;
 }
