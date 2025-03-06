@@ -24,7 +24,8 @@ resultsText.textContent = `You've scored ${score} out of !`
 
 function getScore(){
   let score = 0;
-  score += selectedTropes[3].value;
+  let item = selectedTropes[3];
+  score += item.value;
   /*for (i=0; i < selectedTropes.length; i++){
   score += selectedTropes[i].value; 
   }*/
