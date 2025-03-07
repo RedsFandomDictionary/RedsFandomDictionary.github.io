@@ -9,7 +9,7 @@ resultsBtn.addEventListener("click", updateScoreText());
 function updateScoreText(){
   let score = 0;
   score += selectedTropes[2].value;
-  resultsText.textContent = `You've scored ${score} out of !`
+  resultsText.textContent = `You've scored ${score} out of 1!`
   
   /*if (score > 5){
   } else if (score > 4){
