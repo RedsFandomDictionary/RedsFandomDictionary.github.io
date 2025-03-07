@@ -1,4 +1,4 @@
-const selectedTropes = document.querySelectorAll(".trope");
+//const selectedTropes = document.querySelectorAll(".trope");
 const resultsText = document.getElementById("results-text");
 const resultsBtn = document.getElementById("results-btn");
 
