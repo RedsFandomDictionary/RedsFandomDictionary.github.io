@@ -1,8 +1,7 @@
-const selectedTropes = document.querySelectorAll('input[type="checkbox"]:checked');
+const selectedTropes = document.querySelectorAll(".trope");
 const resultsText = document.getElementById("results-text");
 const resultsBtn = document.getElementById("results-btn");
 
-console.log(selectedTropes);
 resultsBtn.addEventListener("click", updateScoreText(getScore()));
 
 function updateScoreText(score){
@@ -25,6 +24,7 @@ resultsText.textContent = `You've scored ${score} out of !`
 
 function getScore(){
   let score = 0;
+  score += selectedTropes[2].value;
   /*for (i=0; i < selectedTropes.length; i++){
   score += selectedTropes[i].value; 
   }*/
