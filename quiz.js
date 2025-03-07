@@ -2,10 +2,14 @@ const selectedTropes = document.querySelectorAll(".trope");
 const resultsText = document.getElementById("results-text");
 const resultsBtn = document.getElementById("results-btn");
 
-resultsBtn.addEventListener("click", updateScoreText(getScore()));
+console.log(selectedTropes[2].value);
 
-function updateScoreText(score){
-resultsText.textContent = `You've scored ${score} out of !`
+resultsBtn.addEventListener("click", updateScoreText());
+
+function updateScoreText(){
+  let score = 0;
+  score += selectedTropes[2].value;
+  resultsText.textContent = `You've scored ${score} out of !`
   
   /*if (score > 5){
   } else if (score > 4){
@@ -22,11 +26,10 @@ resultsText.textContent = `You've scored ${score} out of !`
 }
 
 
-function getScore(){
-  let score = 0;
-  score += selectedTropes[2].value;
-  /*for (i=0; i < selectedTropes.length; i++){
+/*function getScore(){
+  
+  for (i=0; i < selectedTropes.length; i++){
   score += selectedTropes[i].value; 
-  }*/
-  return score;
+  }
+  return score;*/
 }
