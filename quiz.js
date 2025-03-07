@@ -30,4 +30,4 @@ function updateScoreText(){
   score += selectedTropes[i].value; 
   }
   return score;*/
-}
+
