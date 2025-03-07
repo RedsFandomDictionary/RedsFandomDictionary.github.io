@@ -2,13 +2,11 @@ const selectedTropes = document.querySelectorAll(".trope");
 const resultsText = document.getElementById("results-text");
 const resultsBtn = document.getElementById("results-btn");
 
-console.log(selectedTropes[2].value);
-
 resultsBtn.addEventListener("click", updateScoreText());
 
 function updateScoreText(){
   let score = 0;
-  score += selectedTropes[2].value;
+  score += 5;
   resultsText.textContent = `You've scored ${score} out of 1!`
   
   /*if (score > 5){
