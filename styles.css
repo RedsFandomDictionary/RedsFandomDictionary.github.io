@@ -7,3 +7,11 @@ li{
   font-size: 1.15em;
   margin-bottom: 10px;
 }
+
+#results-text {
+   display: none;
+ }
+
+ #quip-text {
+   display: block;
+ }
